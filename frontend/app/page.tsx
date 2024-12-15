@@ -7,7 +7,6 @@ import { TimelineWorks } from "@/components/timeline/timeline";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { MoveRight } from "lucide-react";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -34,7 +33,7 @@ export default function Home() {
               .map((word, index) => (
                 <h1
                   key={index}
-                  className="text-[2vw] uppercase leading-none text-center grow transform font-neuePlak font-bold scale-y-[0.9]"
+                  className="text-[2vw] uppercase leading-none text-center grow transform font-neuePlak font-light scale-y-[0.9]"
                 >
                   {word}
                 </h1>
